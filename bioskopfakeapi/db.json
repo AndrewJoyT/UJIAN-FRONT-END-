@@ -1,0 +1,242 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "dobleh",
+      "password": "qwe",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "jamal",
+      "password": "qwe",
+      "role": "user"
+    },
+    {
+      "username": "kabur",
+      "password": "qwe",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "aaaaa",
+      "password": "aaaaa",
+      "role": "user",
+      "id": 5
+    }
+  ],
+  "studios": [
+    {
+      "id": 1,
+      "nama": "Studio 1",
+      "jumlahKursi": 260
+    },
+    {
+      "id": 2,
+      "nama": "Studio 2",
+      "jumlahKursi": 240
+    },
+    {
+      "nama": "Studio 3",
+      "jumlahKursi": 200,
+      "id": 3
+    },
+    {
+      "nama": "STADION GELORA BUNG KARNO",
+      "jumlahKursi": 100,
+      "id": 4
+    }
+  ],
+  "movies": [
+    {
+      "title": "The Godfather (1972)",
+      "image": "http://www.gstatic.com/tv/thumb/v22vodart/6326/p6326_v_v8_aj.jpg",
+      "sinopsis": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "sutradara": "Francis Ford Coppola",
+      "genre": "Crime,Drama",
+      "durasi": "121",
+      "produksi": "RANS",
+      "jadwal": [
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "trailer": "https://www.youtube.com/embed/sY1S34973zA",
+      "studioId": "1",
+      "id": 1
+    },
+    {
+      "title": "The Shawshank Redemption (1994)",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQ1ODM2MjY3OV5BMl5BanBnXkFtZTgwMTU2MjEyMDE@._V1_.jpg",
+      "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "sutradara": "Frank Darabont",
+      "genre": "Drama",
+      "durasi": "121",
+      "produksi": "RANS",
+      "jadwal": [
+        12,
+        14,
+        16,
+        20,
+        22
+      ],
+      "trailer": "https://www.youtube.com/embed/6hB3S9bIaco",
+      "studioId": "1",
+      "id": 2
+    },
+    {
+      "title": "The Godfather: Part II (1974)",
+      "image": "https://i.pinimg.com/originals/9b/25/44/9b2544e6127c3f50cac07a05606c1631.jpg",
+      "sinopsis": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+      "sutradara": "Francis Ford Coppola",
+      "genre": "Crime,Drama",
+      "durasi": "121",
+      "produksi": "RANS",
+      "jadwal": [
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "trailer": "https://www.youtube.com/embed/9O1Iy9od7-A",
+      "studioId": "1",
+      "id": 3
+    },
+    {
+      "title": "Fight Club (1999)",
+      "image": "https://i.pinimg.com/originals/23/4d/9f/234d9f96145141ce65f0272951e05b5d.jpg",
+      "sinopsis": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+      "sutradara": "David Fincher",
+      "genre": "Drama",
+      "durasi": "140",
+      "produksi": "RANS",
+      "jadwal": [
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "trailer": "https://www.youtube.com/embed/SUXWAEX2jlg",
+      "studioId": "1",
+      "id": 4
+    },
+    {
+      "title": "12 Angry Men (1957)",
+      "image": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+      "sinopsis": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
+      "sutradara": "Sidney Lumet",
+      "genre": "Drama",
+      "durasi": "154",
+      "produksi": "RANS",
+      "jadwal": [
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "trailer": "https://www.youtube.com/embed/_13J_9B5jEk",
+      "studioId": "1",
+      "id": 5
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring (2001)",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
+      "sinopsis": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "sutradara": "Peter Jackson\"",
+      "genre": "Adventure, Drama, Fantasy",
+      "durasi": "123",
+      "produksi": "RANS",
+      "jadwal": [
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "trailer": "https://www.youtube.com/embed/r5X-hFf6Bwo",
+      "studioId": "1",
+      "id": 6
+    },
+    {
+      "title": "The Dark Knight (2008)",
+      "image": "http://www.gstatic.com/tv/thumb/v22vodart/173378/p173378_v_v8_at.jpg",
+      "sinopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "sutradara": "Christopher Nolan",
+      "genre": "Action, Crime, Drama",
+      "durasi": "129",
+      "produksi": "RANS",
+      "jadwal": [
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "trailer": "https://www.youtube.com/embed/GokKUqLcvD8",
+      "studioId": "1",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "title": "Inception",
+      "image": "http://www.gstatic.com/tv/thumb/v22vodart/7825626/p7825626_v_v8_ad.jpg",
+      "jadwal": [
+        10,
+        12,
+        14
+      ],
+      "sutradara": "Christopher Nolan",
+      "durasi": "129",
+      "cast": [
+        "Chritian Bale  ",
+        "Gary Oldman ",
+        "Michael Caine ",
+        "Heath Ledger"
+      ],
+      "sinopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "trailers": [
+        "https://www.imdb.com/videoembed/vi4219471385"
+      ],
+      "studioId": 1,
+      "genre": "Drama.",
+      "produksi": "CINEMA PICTURES"
+    }
+  ],
+  "orders": [
+    {
+      "userId": 2,
+      "movieId": 2,
+      "totalharga": 25000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 1
+    }
+  ],
+  "ordersDetails": [
+    {
+      "orderId": 1,
+      "seat": 7,
+      "row": 0,
+      "id": 1
+    }
+  ],
+  "transactions": [],
+  "transactionsDetails": []
+}
